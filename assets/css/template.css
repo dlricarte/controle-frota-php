@@ -1,0 +1,127 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.site-logo{
+  margin-top: -10px;
+}
+
+.site-name{
+  font-size: 18px;
+}
+
+.site-id{
+  margin-right: 20px;
+}
+
+.container {
+  width: auto;
+  max-width: 980px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.campo-busca{
+	width: 400px !important;
+}
+
+.btn-adicionar{
+	float:right;	
+}
+
+.row .breadcrumb{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.saudacao{
+	color:#CC6666;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.ddd-telefone, .telefone{
+  display: inline;
+}
+
+.ddd-telefone{
+  width:8%;
+}
+
+.telefone{
+  width:20%;
+}
+
+.button-action, .button-delete, .button-adicionar, 
+  .button-salvar, .button-pesquisar, .button-listar{  
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position:0.7em center;
+}
+
+.button-delete{
+  background-image:url('../../assets/img/icons/database_delete.png');  
+}
+
+.button-adicionar{
+  background-image:url('../../assets/img/icons/database_add.png');  
+}
+
+.button-salvar{
+  background-image:url('../../assets/img/icons/database_save.png');  
+}
+
+.button-pesquisar{
+  background-image:url('../../assets/img/icons/zoom.png');  
+}
+
+.button-listar{
+  background-image:url('../../assets/img/icons/database_table.png');  
+}
+
+.button-imprimir{
+  background-image:url('../../assets/img/icons/printer.png');  
+  float:right;  
+  display: block;
+}
